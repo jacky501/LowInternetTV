@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Low Internet TV</string>
+    <string name="countdown">Remaining</string>
+    <string name="countdownleft">FOOTBALL WORLD CUP 2018</string>
+    <string name="description">Media Controls</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

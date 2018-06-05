@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#4fb979"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.TabLayout
+        android:background="#9e4848"
+        android:id="@+id/upTab"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:tabBackground="@color/colorPrimary"
+        app:tabIndicatorColor="#decd1b"
+        app:tabIndicatorHeight="2dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#e40e0e"
+        app:tabTextColor="#ffffff" />
+
+    <org.atctech.lowinternettv.utills.CustomViewPager
+        android:background="#ffffff"
+        android:id="@+id/upViewpager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+</LinearLayout>
